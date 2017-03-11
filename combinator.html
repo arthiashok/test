@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Week 2 task</title>
+
+  <style>
+    .black{
+      color: black;
+    }
+    div li {
+      color:purple;
+    }
+    div p{
+      color:purple;
+    }
+
+     div > p {
+    color: orange;
+      }
+
+      div > .red {
+        color: red;
+      }
+
+      .red + .blue {
+        color: blue;
+      }
+
+     .blue ~ .orange {
+        color: orange;
+    }
+
+    .pink{
+      color: pink;
+    }
+
+    </style>
+</head>
+    <body>
+
+
+    <div>
+    <p class="black">"I am in a paragraph in black text"</p>
+
+<ol class="text">
+    <li>I am in a list in purple text done by the descendant selector</li>
+    <li>
+    <p>I am in a list/paragraph in purple text done by the descendant selector</p>
+    </li>
+</ol>
+  <p class="red"> I am red text done by child selector</p>
+  <p class="blue"> I am blue text done by an adjacent selector</p>
+</ol>
+  <li class="orange"> "I am orange text done by a general sibling selector;"
+  <em class="pink"> "I am a phrase in pink by combining 2 selectors"</em>
+</li>
+    </div>
+    </body>
+</html>
